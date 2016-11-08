@@ -1,0 +1,16 @@
+- key: checklist
+  icon: fa-check-square-o
+- key: documentation
+  icon: fa-file-text
+- key: presentation
+  icon: fa-film
+- key: code
+  icon: fa-code
+- key: browser extension
+  icon: fa-window-restore
+- key: web tool
+  icon: fa-laptop
+- key: desktop tool
+  icon: fa-desktop
+- key: blog post
+  icon: fa-rss

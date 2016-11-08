@@ -1,0 +1,301 @@
+# Type can be browser extension, web tool, documentation
+# blog post, desktop tool, presentation, code, checklist
+- name: Landmarks
+  url: http://matatk.agrip.org.uk/landmarks/
+  blurb: A browser extension (for Firefox and Chrome) that enables navigation of WAI-ARIA landmarks, via the keyboard or a pop-up menu (from the extension’s toolbar button).
+  type: browser extension
+
+- name: Hex Naw
+  url: https://hexnaw.com
+  blurb: A tool that helps designers and developers test entire color systems for contrast and accessibility. Plug in your palette or color system and let Hex Naw do the rest.
+  type: web tool
+
+- name: Alternative Text and Images
+  url: https://bitsofco.de/alternative-text-and-images/
+  blurb: For images, a text alternative is typically provided using the alt attribute. As a blanket rule, all images should have an alt attribute. This, however, does not mean that actual alternative text needs to be provided for every image. Broadly, there are 7 types of images. The way we handle alternative text is different for each.
+  type: blog post
+
+- name: Personas for Accessible UX
+  url: http://www.slideshare.net/whitneyq/personas-for-accessible-ux
+  blurb: Including everyone in design & research.
+  type: presentation
+
+- name: Accessibility Developer Tools
+  featured: true
+  image: chromeaccessibilitydevtools.png
+  url: https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb
+  blurb: Google’s Chrome extension adds a pane to the DevTools. Within, you can run an audit on a page and the tool will return information and warnings on elements that potentially violate accessibility guidelines.
+  type: browser extension
+
+- name: aXe Chrome Extension
+  featured: true
+  image: axe.png
+  url: https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd
+  blurb: The Accessibility Engine will add a pane to the Chrome DevTools. aXe will let you know how serious the violation is, what guideline is being violated, and details about the element in question.
+  type: browser extension
+
+- name: aXe JavaScript API
+  url: https://github.com/dequelabs/axe-core/blob/master/README.md
+  type: code
+  blurb: The Accessibility Engine for automated testing of HTML-based user interfaces. Drop the aXe on your accessibility defects!
+
+- name: WAVE
+  featured: true
+  image: wave.png
+  url: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
+  blurb: The Web Accessibility Evaluation tool will audit your page for accessibility warnings, showing results inline on the page.
+  type: browser extension
+
+- name: NoCoffee
+  url: https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl
+  type: browser extension
+  blurb: A browser extension that simulates many different types of vision impairments.
+
+- name: VoiceOver
+  url: https://help.apple.com/voiceover/info/guide/10.10/#/vo2681
+  type: desktop tool
+  blurb: A screen reader used to operate and navigate the system and applications on OS X and iOS.
+
+- name: NVDA
+  type: desktop tool
+  url: http://www.nvaccess.org/download/
+  blurb: A screen reader for Windows.
+
+- name: JAWS
+  type: desktop tool
+  url: http://www.freedomscientific.com/Products/Blindness/JAWS
+  blurb: A (paid) screen reader for Windows.
+
+- name: Accessible Colors
+  type: web tool
+  url: http://accessible-colors.com/
+  blurb: We evaluate your color combination using the WCAG 2.0 guidelines for contrast accessibility. If your combination does not meet the guidelines, we find the closest accessible combination by modifying the color lightness.
+
+- name: tota11y
+  blurb: Helps visualize accessibility violations (and successes), while educating on best practices.
+  type: browser extension
+  url: http://khan.github.io/tota11y/
+
+- name: Designing for Accessibility The Ultimate in UX
+  blurb: So how do you create impressive, accessible designs? These 6 tips will help you create accessible designs that meet the minimum standards of Section 508 and Web Content Accessibility Guidelines 2.0.
+  url: https://blog.prototypr.io/designing-for-accessibility-the-ultimate-in-ux-e366165d0db7
+  type: blog post
+
+- name: On CSS accessibility and drinking tea
+  type: presentation
+  url: https://vimeo.com/180566024
+  blurb: In this talk Léonie will look at the changing relationship between design and structure, and what it means for accessibility mechanics in the browser. She will share CSS code examples and design patterns for solving common accessibility problems, so everyone can go and have another nice cup of tea.
+
+- name: The Ultimate Guide to Web Content accessibility
+  type: blog post
+  url: http://blog.invisionapp.com/guide-web-content-accessibility/
+  blurb: If you’re looking to understand accessibility or just want to delve a bit deeper into the subject, then this guide is for you. I’ll explain some basics of WCAG conformance for a beginner, along with all the tools and resources you’ll need to keep learning along the way.
+
+- name: Dos and don'ts on designing for accessiblity
+  type: presentation
+  blurb: The dos and don’ts of designing for accessibility are general guidelines, best design practices for making services accessible in government. Currently, there are six different posters in the series that cater to users from these areas - low vision, D/deaf and hard of hearing, dyslexia, motor disabilities, users on the autistic spectrum and users of screen readers.
+  url: https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/
+
+- name: Accessible floating labels
+  type: blog post
+  url: http://allthingssmitty.com/2016/09/25/accessible-floating-labels/
+  blurb: Still, I see plenty of implementations where labels are ignored for more eye-catching solutions, which in turn creates accessibility problems. Interestingly enough, there are plenty of existing, design-friendly patterns using labels. One that’s been around for a few years now is floating labels.
+
+- name: ally.js
+  type: code
+  url: https://allyjs.io/
+  blurb: ally.js is a JavaScript library simplifying certain accessibility features, functions and behaviors. However, simply loading ally.js will not automagically make a web application accessible. The library provides certain standard functions the "web platform" should've provided itself, so JavaScript applications can be made accessible more easily.
+
+- name: WCAG 2.0 Checklist
+  url: https://www.wuhcag.com/wcag-checklist/
+  type: checklist
+
+- name: WebAIM's WCAG 2.0 Checklist
+  url: http://webaim.org/standards/wcag/checklist
+  type: checklist
+
+- name: HTML 508 Checklist
+  url: http://www.hhs.gov/web/section-508/making-files-accessible/checklist/html/index.html
+  type: checklist
+
+- name: WebAIM Section 508 Checklist
+  url: http://webaim.org/standards/508/checklist
+  type: checklist
+
+- name: Interactive WCAG 2.0
+  url: http://code.viget.com/interactive-wcag/
+  type: checklist
+
+- name: ARIA Live Regions Screen Reader Demo
+  url: https://www.youtube.com/watch?v=9nZnTdSAkH0
+  type: presentation
+  blurb: Demonstrates ARIA live regions, including the aria-live and aria-atomic attributes. Includes a demo of their effects with the Jaws screen reader, version 11.
+
+- name: WAI-ARIA 1.0 Authoring Practices
+  url: https://www.w3.org/WAI/PF/aria-practices/#aria_ex
+  type: documentation
+
+- name: WAI-finding with ARIA Landmark Roles
+  type: documentation
+  url: http://alistapart.com/column/wai-finding-with-aria-landmark-roles
+
+- name: Accessibility of Rich Internet applications
+  type: documentation
+  url: http://webaim.org/techniques/aria/
+
+- name: Accessible JavaScript
+  type: documentation
+  url: http://webaim.org/techniques/javascript/
+
+- name: Semantic Structure
+  type: documentation
+  url: http://webaim.org/techniques/semanticstructure/
+
+- name: Designing for Screen Reader Compatibility
+  url: http://webaim.org/techniques/screenreader/
+  type: documentation
+
+- name: Accessibility APIs A Key To Web Accessibility
+  type: blog post
+  url: https://www.smashingmagazine.com/2015/03/web-accessibility-with-accessibility-api/
+  blurb: How do assistive technologies present a web application to make it accessible for their users? Where do they get the information they need? One of the keys is a technology known as the accessibility API (or accessibility application programming interface, to use its full formal title).
+
+- name: Color Oracle
+  type: desktop tool
+  url: http://colororacle.org/index.html
+  blurb: Color Oracle is a free color blindness simulator for Window, Mac and Linux. It takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see.
+
+- name: The web accessibility basics
+  type: blog post
+  url: https://www.marcozehe.de/2015/12/14/the-web-accessibility-basics/
+  blurb: So here it is, my list of absolute web accessibility basics every web developer should know about.
+
+- name: The A11Y Project
+  type: documentation
+  url: http://a11yproject.com/
+  blurb: A community-driven effort to make web accessibility easier.
+
+- name: A11y Dialog
+  type: code
+  url: http://dev.edenspiekermann.com/2016/02/11/introducing-accessible-modal-dialog/
+  blurb: Almost all projects involve some form of dialog window at one point or another. However, accessibility is all too often set aside in favor of quick implementation. Truth is, accessible dialog windows are hard. Very hard.
+
+- name: On HTML belts and ARIA braces (The Default Implicit ARIA semantics they didn’t want you to know about)
+  type: blog post
+  url: http://html5doctor.com/on-html-belts-and-aria-braces/
+  blurb: The question of whether HTML elements need the addition of ARIA role attibutes to expose their semantics, is one that surfaces on a regular basis. The answer is maybe for a subset of elements, but increasingly no.
+
+- name: Improving Website accessibility
+  type: documentation
+  url: https://www.section508.gov/content/build/website-accessibility-improvement
+
+- name: How to Use ARIA Effectively with HTML5
+  type: blog post
+  url: https://www.sitepoint.com/how-to-use-aria-effectively-with-html5/
+  blurb: ARIA stands for ‘Accessible Rich Internet Applications’ and can help make your website more accessible to people with disabilities such as hearing or visual impairment. Let’s see how we, as developers, can make life easier for them.
+
+- name: 18F Accessibility Guide
+  type: documentation
+  url: https://pages.18f.gov/accessibility/
+
+- name: A11y Toggle
+  type: code
+  url: http://edenspiekermann.github.io/a11y-toggle/
+  blurb: Pure CSS toggles using the checkbox hack introduce some usability and accessibility problems.
+
+- name: Mapping Section 508 to WCAG 2.0
+  type: documentation
+  url: http://www.tomjewett.com/accessibility/508-WCAG2.html
+  blurb: At first glance, the new World-Wide Web Consortium (W3C) Web Content Accessibility Guidelines (WCAG) 2.0 may seem to be “just more work” for developers who believe that they are “only required” to meet legal standards such as Section 508 of the (United States) Rehabilitation Act. Fortunately, this is not the case. In fact, after carefully mapping Section 508 to WCAG 2.0, we believe that the two documents compliment each other.
+
+- name: Comparison Table of WCAG 2.0 to Existing 508 Standards
+  type: documentation
+  url: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/background/comparison-table-of-wcag2-to-existing-508-standards
+  blurb: The WCAG 2.0 Success Criteria are more explicit than the existing 508 Standards.  Careful attention has been given to ensure that the Success Criteria are written as objectively testable requirements.  In addition, unlike the existing 508 Standards, WCAG 2.0 is written in a way that is technology neutral and is therefore directly applicable to a wide range of content types and formats.
+
+- name: HTML5 Accessibility Chops When to use an ARIA role
+  type: blog post
+  url: https://www.paciellogroup.com/blog/2012/06/html5-accessibility-chops-when-to-use-an-aria-role/
+  blurb: There has been discussion of late on whether authors should be allowed to include an ARIA role value on an HTML element that matches the default implicit ARIA role as defined in HTML5.
+
+- name: Notes on Using ARIA in HTML
+  type: documentation
+  url: https://w3c.github.io/aria-in-html/
+  blurb: This document is a practical guide for developers on how to add accessibility information to HTML elements using the Accessible Rich Internet Applications specification, which defines a way to make Web content and Web applications more accessible to people with disabilities.
+
+- name: How to choose an accessible typeface
+  type: blog post
+  url: http://www.webdesignerdepot.com/2016/03/how-to-choose-an-accessible-typeface/
+  blurb: How can you tell which typefaces are accessible and does this mean a compromise in terms of design? Here are my top tips.
+
+- name: How to Create More Accessible Content, Part 1 Copywriting
+  type: blog post
+  url: https://www.viget.com/articles/how-to-create-more-accessible-content-part-1
+  blurb: Writing consistent, well-structured copy that serves all audiences.
+
+- name: MDN ARIA Guide
+  type: documentation
+  url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+
+- name: How to Make Floating Input Labels with HTML5 Validation
+  type: blog post
+  url: https://webdesign.tutsplus.com/tutorials/how-to-make-floating-input-labels-with-html5-validation--cms-26120
+  blurb: Replace your JavaScript validation with HTML5 validation. It’s easier than you think, and gives you a ton of markup and styling control.
+
+- name: Web Components punch list
+  type: checklist
+  url: https://www.paciellogroup.com/blog/2014/09/web-components-punch-list/
+
+- name: Web Accessibility Checklist
+  type: checklist
+  url: http://a11yproject.com/checklist.html
+
+- name: HTML5 Accessibility
+  type: web tool
+  blurb: Get the current accessibility support status of HTML5 features across major browsers.
+  url: http://html5accessibility.com/
+
+- name: Simple standalone toggletip widget pattern
+  type: code
+  url: https://www.paciellogroup.com/blog/2016/01/simple-standalone-toggletip-widget-pattern/
+  blurb: It is a bugger trying to create a tooltip that works across browsers with Assistive Technology and in particular screen readers. Then there is the issue of how the trigger control is to be represented and how the keyboard only user UX is best provided and the more general UX of using mouse hover as a trigger for content display.
+
+- name: Danger! ARIA tabs
+  type: blog post
+  url: http://simplyaccessible.com/article/danger-aria-tabs/
+  blurb: In this post, Jeff breaks down an ARIA tabs interaction to see how ARIA can impact users with disabilities—and how to make tabs truly accessible.
+
+- name: Pa11y
+  type: code
+  url: http://pa11y.org/
+  blurb: Here at Pa11y, we think making the web more accessible improves it for everyone. So we publish a range of free and open source tools to help designers and developers make their web pages more accessible.
+
+- name: Frend
+  type: code
+  url: https://frend.co/
+  blurb: A collection of accessible, modern front-end components - accordion, bypass links, dialog modal, off canvas, tabs, tooltip.
+
+- name: eBay MIND Patterns - Accessibility Patterns for the Web
+  type: code
+  url: http://ianmcburnie.github.io/mindpatterns/
+  blurb: Each example demonstrates our recommended semantic markup, keyboard interaction design and ARIA roles, states & properties for assistive technology. Each pattern follows a progressive enhancement strategy (where applicable) and aims to conform to WCAG 2.0 Level AA.
+
+- name: Danger! Testing Accessibility with real people
+  type: blog post
+  url: https://medium.com/@LeonieWatson/danger-testing-accessibility-with-real-people-4515f72db648
+  blurb: A reponse to the Danger! ARIA tabs article. We will explain problems we see with those conclusions and, perhaps more importantly, shed light on how to avoid similar pitfalls when analysing results from user testing.
+
+- name: ARIA tabs, UI problems and standards
+  type: blog post
+  url: https://alastairc.ac/2016/05/aria-tabs-ui-problems-and-standards/
+  blurb: I’d like to pick up some specific points from both [Danger! ARIA tabs, and the response Danger! Testing Accessibility with real people], analyse the interactions and suggest a way forward.
+
+- name: Allowed ARIA roles, states, and properties
+  type: documentation
+  url: http://w3c.github.io/html-aria/#allowed-aria-roles-states-and-properties
+  blurb: The following table provides an informative reference to the ARIA roles, states and properties permitted for use in HTML.
+
+- name: Tabs - a 3-step journey from HTML to ARIA
+  type: blog post
+  url: https://hackpoets.wordpress.com/2016/05/10/from-html-to-aria-tabs-a-travelog/
+  blurb: This article is an accompanyment to Danger! Testing Accessibility with real people. Here we take you through the steps of constructing the examples used in that article, paying particular attention to how we transform the functional html tabs with no screen reader semantics to a full-fledged tab implementation.

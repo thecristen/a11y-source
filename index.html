@@ -1,0 +1,30 @@
+---
+layout: home
+---
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<h2>{{ site.data.sources | size }} links</h2>
+<section class="sources sources-featured">
+{% for s in site.data.sources %}
+  {% if s.featured %}
+      <a href="{{ s.url }}">{{ s.name }}</a>
+      <p>{{ s.blurb }}</p>
+  {% endif %}
+{% endfor %}
+</section>
+
+<section class="sources">
+{% for category in site.data.categories %}
+  <h3><i class="fa fa-fw {{ category.icon }}" aria-hidden="true"></i> {{ category.key }}</h3>
+  {% assign items = site.data.sources | where: 'type', category.key %}
+  {% for s in items %}
+   {% unless s.featured %}
+    <a href="{{ s.url }}">
+      {{ s.name }}
+    </a>
+    <p>
+      {{ s.blurb }}
+    </p>
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+</section>
