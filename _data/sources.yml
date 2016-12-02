@@ -299,3 +299,8 @@
   type: blog post
   url: https://hackpoets.wordpress.com/2016/05/10/from-html-to-aria-tabs-a-travelog/
   blurb: This article is an accompanyment to Danger! Testing Accessibility with real people. Here we take you through the steps of constructing the examples used in that article, paying particular attention to how we transform the functional html tabs with no screen reader semantics to a full-fledged tab implementation.
+
+- name: IBM Accessibility Checklist for Web and Web-Based Documentation
+  type: checklist
+  url: http://www-03.ibm.com/able/guidelines/ci162/accessibility_checklist_web.html
+  blurb: A checklist with details for WCAG, 508, and useful documentation for each rule.
