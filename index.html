@@ -2,29 +2,52 @@
 layout: home
 ---
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<h2>{{ site.data.sources | size }} links</h2>
-<section class="sources sources-featured">
-{% for s in site.data.sources %}
-  {% if s.featured %}
-      <a href="{{ s.url }}">{{ s.name }}</a>
-      <p>{{ s.blurb }}</p>
-  {% endif %}
-{% endfor %}
-</section>
 
-<section class="sources">
-{% for category in site.data.categories %}
-  <h3><i class="fa fa-fw {{ category.icon }}" aria-hidden="true"></i> {{ category.key }}</h3>
-  {% assign items = site.data.sources | where: 'type', category.key %}
-  {% for s in items %}
-   {% unless s.featured %}
-    <a href="{{ s.url }}">
-      {{ s.name }}
+<!-- Nav tabs -->
+<ul class="nav nav-pills" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#featured" role="tab">
+      <i class="fa fa-fw fa-star" aria-hidden="true"></i>
+      <br> Featured</a>
+  </li>
+  {% for category in site.data.categories %}
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#{{ category.key | slugify }}" role="tab">
+      <i class="fa fa-fw {{ category.icon }}" aria-hidden="true"></i> <br>{{ category.key | capitalize }}
     </a>
-    <p>
-      {{ s.blurb }}
-    </p>
-    {% endunless %}
+  </li>
   {% endfor %}
-{% endfor %}
-</section>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content sources py-2">
+  <div class="tab-pane active" id="featured" role="tabpanel">
+    <ul class="list-group">
+    {% for s in site.data.sources %}
+      {% if s.featured %}
+        <li class="list-group-item">
+          <a class="d-block" href="{{ s.url }}">{{ s.name }}</a>
+          <p>{{ s.blurb }}</p>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+  {% for category in site.data.categories %}
+  <div class="tab-pane" id="{{ category.key | slugify }}" role="tabpanel">
+    {% assign items = site.data.sources | where: 'type', category.key %}
+    <ul class="list-group">
+    {% for s in items %}
+     {% unless s.featured %}
+      <li class="list-group-item">
+        <a class="d-block" href="{{ s.url }}">
+          {{ s.name }}
+        </a>
+        <p>{{ s.blurb }}</p>
+      </li>
+      {% endunless %}
+    {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

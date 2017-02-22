@@ -304,3 +304,7 @@
   type: checklist
   url: http://www-03.ibm.com/able/guidelines/ci162/accessibility_checklist_web.html
   blurb: A checklist with details for WCAG, 508, and useful documentation for each rule.
+
+- name: Accessible UI Components for the Web
+  type: blog post
+  url: https://medium.com/@addyosmani/accessible-ui-components-for-the-web-39e727101a67#.to1t4u7m0
